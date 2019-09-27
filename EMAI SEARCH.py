@@ -24,10 +24,10 @@ time.sleep(2)
 #driver.find_element_by_id("psi_logout").click()
 
 login = driver.find_element_by_class_name("user")
-login.send_keys("z00361833")
+login.send_keys("")
 
 password=driver.find_element_by_class_name("psw")
-password.send_keys("Zxy(760825")
+password.send_keys("")
 time.sleep(1)
 driver.find_element_by_class_name("btn").click()
 
